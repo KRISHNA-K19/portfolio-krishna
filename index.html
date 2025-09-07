@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishnamoorthy K - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Header / Navigation -->
+<header>
+    <div class="header-left">
+        <img src="img/krishna_photo.jpg" alt="Krishnamoorthy K" class="profile-pic">
+        <h1 class="highlighted-name">Krishnamoorthy K</h1>
+    </div>
+    <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#courses">Courses & Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- About Me Section -->
+<section id="about-me" class="about-me">
+    <h2>About Me</h2>
+    <p>Hello! I’m <strong>Krishnamoorthy K</strong>, a second-year Computer Science student with a passion for <strong>Web Development, Software Programming, and Data Science</strong>.</p>
+    <p>I enjoy creating practical solutions and building projects that combine creativity with technology. I have hands-on experience in <strong>HTML, CSS, Python</strong>, and have completed comprehensive courses in <strong>Data Science and Machine Learning with IBM</strong>.</p>
+    <p>One of my projects includes a <strong>QR code-based smart ID card generator</strong>, which gave me valuable experience in <strong>data-driven development workflows</strong>.</p>
+    <p>I am a <strong>self-motivated learner</strong> who enjoys problem-solving and collaborating on innovative projects. I am actively seeking <strong>internship opportunities</strong> where I can contribute, grow my skill set, and gain real-world industry exposure.</p>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <h2 class="section-title">Technical Skills</h2>
+    <ul class="skills-list">
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, Data Science, Machine Learning</li>
+        <li>Project Development: QR Code Smart ID Generator</li>
+        <li>Version Control: Git & GitHub</li>
+    </ul>
+
+    <h2 class="section-title">Interpersonal Skills</h2>
+    <ul class="skills-list">
+        <li>Effective Communication</li>
+        <li>Team Collaboration</li>
+        <li>Problem-Solving</li>
+        <li>Adaptability and Quick Learning</li>
+    </ul>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="project">
+    <h2 class="project-title">QR Code-Based Smart Student ID Generator</h2>
+    <p>A <strong>Python application</strong> that automatically creates colorful student ID cards from a CSV file. Each card embeds a <strong>QR code, college logo</strong>, optional student photo, and can be exported to <strong>PNG and PDF</strong> formats.</p>
+
+    <!-- Project Output Image -->
+    <img src="img/111924CS01128_id_card_page-0001.jpg" alt="Project Output" class="project-img">
+
+    <h3>Features:</h3>
+    <ul class="features-list">
+        <li>Reads student data (name, registration number, department, year, phone) from <strong>student_data.csv</strong>.</li>
+        <li>Generates <strong>QR codes</strong> with student details using the <strong>qrcode</strong> library.</li>
+        <li>Adds college logo and themed header using <strong>Pillow (PIL)</strong>.</li>
+        <li>Optionally inserts a student photo for specific registration numbers.</li>
+        <li>Exports every card as <strong>PNG and PDF</strong> using <strong>reportlab</strong>.</li>
+        <li>Easy customization of colors, fonts, and layout.</li>
+    </ul>
+
+    <h3>Tech Stack:</h3>
+    <table class="tech-stack">
+        <tr>
+            <th>Tool / Library</th>
+            <th>Purpose</th>
+        </tr>
+        <tr>
+            <td>Python 3.10</td>
+            <td>Core programming language</td>
+        </tr>
+        <tr>
+            <td>pandas</td>
+            <td>Load & iterate CSV rows</td>
+        </tr>
+        <tr>
+            <td>Pillow (PIL)</td>
+            <td>Build card image, draw text, paste images</td>
+        </tr>
+        <tr>
+            <td>qrcode</td>
+            <td>QR code generation</td>
+        </tr>
+        <tr>
+            <td>reportlab</td>
+            <td>PDF export</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Courses & Certifications Section -->
+<section id="courses" class="course-section">
+    <h2 class="section-title">Courses & Certifications</h2>
+    <ul class="courses-list">
+        <li><strong>Enterprise Data Science in Practice</strong> – IBM SkillsBuild</li>
+        <li><strong>Machine Learning in Data Science for Projects</strong> – IBM SkillsBuild</li>
+        <li><strong>Python Essentials 1 & 2</strong> – Cisco Networking Academy</li>
+        <li><strong>MATLAB Onramp</strong> – MATLAB Certified</li>
+        <li><strong>Machine Learning Onramp</strong> – MATLAB Certified</li>
+        <li><strong>Programming Fundamentals in Python 1 & 2</strong> – Infosys Springboard</li>
+        <li><strong>Programming in Generative AI</strong> – NPTEL (Currently Pursuing)</li>
+    </ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:krishnamoorthyk.cse@gmail.com">krishnamoorthyk.cse@gmail.com</a></p>
+    <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+918825567017">8825567017</a></p>
+    <p><i class="fa-brands fa-github"></i> GitHub: <a href="https://github.com/YOUR-KRISHNA-K19" target="_blank">My GitHub</a></p>
+    <p><i class="fa-brands fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/krishnamoorthykumar" target="_blank">My LinkedIn</a></p>
+</section>
+
+</body>
+</html>
